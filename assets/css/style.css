@@ -1,0 +1,44 @@
+/* Applies to every element on page and removes built-in browser styles, specifically margin and padding */ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+header {
+    padding: 20px 35px;
+    background-color:#39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+   /* changes h1 from block to inline */
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+/* moves nav elements to right of page */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+/* moves list to read horizontally */
+header nav ul li {
+    display: inline;
+}
+
+/* adds style to nav list <a> */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+} 
