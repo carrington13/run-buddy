@@ -36,10 +36,44 @@
     </header>
         
         
-    <!-- jumbotron -->
-    <section>
-
+    <!-- jumbotron/hero -->
+    <section class="hero">
+        <div class="hero-form">
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <!-- sign up form! -->    
+            <form>
+                <!-- input for name -->
+                <label for="name">Enter full name:</label>
+                <input class="form-input" type="text" placeholder="Your Name" name="name" id="name" />
+                <!-- input for email -->
+                <label for="email">Enter email address:</label>
+                <input class="form-input" type="email" placeholder="Email Address" name="email" id="email" />
+                <!-- input for phone -->
+                <label for="phone">Enter a telephone number:</label>
+                <input class="form-input" type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <!-- radio trainer-confirm -->
+                <p>
+                    Have you worked out with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <!-- age-confirm radio -->
+                <p>
+                    <label for="checkbox">
+                      I acknowledge that I am at least 18 years of age.
+                    </label>    
+                    <input type="radio" name="age-confirm" id="checkbox" />
+                
+                </p>
+                <!-- submit button -->
+                <button type="submit">Get running!</button>
+            </form>    
+        </div>    
     </section>
+    <!-- end hero -->
 
     <!-- "what we do" section -->
     <section>
@@ -64,6 +98,10 @@
     <!-- footer -->
     <footer>
         <h2>❤️ Made with love by Run Buddy</h2>
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br />
+            &copy; 2019 Run Buddy, Inc.
+        </div>
     </footer>
             
 </body>
