@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* instructs browser to ignore padding in overall page width, problem found in footer */
+ 
     box-sizing: border-box;
 }
 
@@ -10,6 +10,8 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
+
+/* Header Style Start */
 header {
     padding: 20px 35px;
     background-color:#39a6b2;
@@ -19,7 +21,7 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
-   /* changes h1 from block to inline */
+   
     margin: 0;
     display: inline;
 }
@@ -28,12 +30,12 @@ header a {
     text-decoration: none;
     color: #fce138;
 }
-/* moves nav elements to right of page */
+
 header nav {
     float: right;
     margin: 7px 0;
 }
-/* moves list to read horizontally */
+
 header nav ul li {
     display: inline;
 }
@@ -44,6 +46,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 } 
+/* Header Style Ends */
 
 /* Hero Style Start */
 .hero {
@@ -84,7 +87,7 @@ header nav ul li a {
     width: 100%;
     margin-bottom: 15px;
 }
-/* form-input style stop */
+/* form-input style end*/
 
 .hero-form label {
     margin: 0 5px;
